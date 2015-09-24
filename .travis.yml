@@ -9,9 +9,10 @@ env:
 deploy:
   provider: releases
   api_key:
-    secure: ZkxhBuq+2z0JA6y7nq6LZsr0wZkd/pAxP2JoeMRTOsl3YLUXzYL2KnOgB7mAMo5x48KRjSEA0J3JPLNfC3qU8jkpriqvP7XajuDGjOzSgBZnsrAZWyWbAj/n0CqpA2eLDvn/GY6d1UqSn4UZvsb6n4S90OJm51lo4Hlt55Me/Xc=
+    secure: TOLHELBVpZhmIG6bzJtduN9eBEceCLOMoa3ZdmUwKO8ZtWVxac9JVCoevADSeU+kU/+TMEKdISbOdHWSfquNrZsSpYfkjWKQsX75U+awYr1lXwPS09lQdNtmGjcpp6Tds6jA32iEYtsXbysrqj7xj/1KP+MHqHQMz4L39kkugh8QiTRvOyl6FohurSAFU5bhWaSHwOjCpZ6bwoB9AqAri/H0o+SHzxseWe65/2p99WVt3vV6Lo7lMLQneEOYEOtp0H2U7FVEJmlQevLk3arnBs6eWbqZdNF0GhXRbWB6mmMeUNJPvnL+saz0cgAl8UBS4/uVpAxdFvVlwhp6Aux2I582jLesXYhWvQOiIWzj6oEPq4MD0sTVh1bJH8+gG9ArHwPHXCnwKrBAM238Y50N00TphLmBf3mA4kGXArN7euUjhuBvP/s2nVbdHBVSAPHZleZtGjiRCuFtaRJhDiMJ/kDp8dx9PEd0K9ShfzrkgZqTvHrEzQ9aHYY8zCdp7dy1niEBxQBF8EbG1LDSDouXzcpZhyyqceLgof6Z0LKKFNO9cNn9TXwEOisYMcmp+VOsBK8hgv8fHrLQdHnIG2aQyuW3BTD566cDN1ANuDty9BE/JF1Dhz+aJ7A+gGCLE7GSlAss/vC3KJipAexnk76fduiRDmS1ovTx+wb/Y+3kZ+o=
   file: target/p3-stanbol-engine-redlink-$TRAVIS_TAG.jar
+  skip_cleanup: true
   on:
-    repo: fusepoolP3/p3-stanbol-engine-redlink
+    repo: fusepoolP3/p3-any23-transformer
     tags: true
     all_branches: true

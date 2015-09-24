@@ -36,5 +36,9 @@ Configuration Parameters
 The engine supports a number of configuration parameters, the most
 relevant of which are:
 
-__TODO__
+The Engine support multiple configuration (OSGI configuration factory).
 
+* __Engine Name__ _(stanbol.enhancer.engine.name)_: The name for the engine instance
+* __Redlink App__ _(enhancer.engine.redlink.app)_: The Redlink analysis application name
+* __Redlink Key__ _(enhancer.engine.redlink.key)_: The application key
+* __Redlink Version__ _(enhancer.engine.redlink.version)_: the Redlink service version to use (optional)

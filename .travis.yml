@@ -13,6 +13,6 @@ deploy:
   file: target/p3-stanbol-engine-redlink-$TRAVIS_TAG.jar
   skip_cleanup: true
   on:
-    repo: fusepoolP3/p3-any23-transformer
+    repo: fusepoolP3/p3-stanbol-engine-redlink
     tags: true
     all_branches: true
